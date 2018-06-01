@@ -31,6 +31,35 @@
 	git add 文件名：将文件推送到缓存区
 	git commit -m “Once” 文 件名：
 
+	git status:查看当前状态
+	git diff:对最近版本相对比有什么区别
+	git log:记录了 版本详情
+
+	git reset --hard ^  : 进行对上一个版本的回滚
+	git reset --hard ^^ : 进行对上两个版本的回滚，以此类推
+	git reset --hard 版本ID : 对向前的版本进行回滚
+
+	git reflog : 查看每次操作仓库内的信息（commit），
+				 当关闭控制台后，仍然能够通过命令来查找版本Id
+
+	缓存区与仓库的区别操作：
+	git diff : 比较工作区和缓存区的区别
+	git diff --cached:比较缓存区和仓库区之间的区别
+	git diff HEAD: 比较工作区和仓库之间的区别
+
+	git checkout --<file>: 
+	git checkout : 仓库区覆盖到缓存区
+
+	创建分支：
+	git branch : 检查当前分支以及显示当前所有分支
+	git branch dev : 开发出一个新的分支
+	git checkout dev: 创建一个名叫dev的分支
+	git branch -d dev : 删除名叫dev分支
+	git merge dev : 将dev分支合并到master主干中
+
+	github 远程仓库 Remote 
+	
+
 
 
 	<script>

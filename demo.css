@@ -6,12 +6,12 @@ div{
 
 .demo{
 	width:200px;
-	height:200px;
-	float:left;
+	height:200px; 
 	background:green;
 }
 
 *{
+<<<<<<< HEAD
 	padding:0px;
 	margin: 0px;
 }
