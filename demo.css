@@ -10,3 +10,8 @@ div{
 	float:left;
 	background:green;
 }
+
+*{
+	padding:0px;
+	margin: 0px;
+}
