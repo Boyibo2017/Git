@@ -5,6 +5,7 @@ div{
 }
 
 .demo{
+	float:left;
 	width:200px;
 	height:200px; 
 	background:green;
